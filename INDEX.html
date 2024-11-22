@@ -13,7 +13,7 @@
   <!-- Header / Navbar -->
   <nav class="navbar bg-body-tertiary ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">INTERACTURIA</a>
+      <a class="navbar-brand" href="#">INTERACTURIA             - Museu viu de les ferramentes</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -52,9 +52,58 @@
       </div>
     </div>
   </nav>
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mosaico de Imágenes</title>
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+    .fullscreen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    .fullscreen img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery" id="gallery"></div>
+  <div class="fullscreen" id="fullscreen" style="display: none;">
+    <img id="fullscreenImg" src="" alt="">
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
 
   <!-- Footer -->
-  <footer class="bg-light text-center text-lg-start mt-auto">
+  <footer class="text-center text-lg-start mt-auto">
     <div class="text-center p-3">
       © 2024 INTERACTURIA. All Rights Reserved.
     </div>

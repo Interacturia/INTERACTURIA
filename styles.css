@@ -1,7 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh; 
+    background-color: #55e955; 
+    margin: 0;
   }
   
   .main-content {
@@ -25,21 +27,14 @@ body {
     padding: 20px;
   }
   
-  #image-carousel {
-    position: relative;
-    text-align: center;
-  }
-  
-  #carousel-image {
-    max-width: 100%;
-    height: auto;
-  }
-  
   footer {
-    background-color: #f1f1f1;
     padding: 10px;
     position: relative;
     bottom: 0;
+    text-align: center; /* Centra el texto */
+    color: rgb(0, 0, 0); /* Texto blanco */
     width: 100%;
+    background-color: #55e955 !important; /* Verde lima */
+    margin: 0;
   }
   
