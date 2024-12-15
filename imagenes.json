@@ -16,5 +16,11 @@
   { "src": "imagenes/image15.png", "alt": "Imagen 15" },
   { "src": "imagenes/image16.png", "alt": "Imagen 16" },
   { "src": "imagenes/image17.jpg", "alt": "Imagen 17" },
-  { "src": "imagenes/image18.jpg", "alt": "Imagen 18" }
+  { "src": "imagenes/image18.jpg", "alt": "Imagen 18" },
+  { "src": "imagenes/image19.jpg", "alt": "Imagen 17" },
+  { "src": "imagenes/image20.jpg", "alt": "Imagen 17" },
+  { "src": "imagenes/image21.jpg", "alt": "Imagen 17" },
+  { "src": "imagenes/image22.png", "alt": "Imagen 17" }, 
+  { "src": "imagenes/image23.jpg", "alt": "Imagen 17" },
+  { "src": "imagenes/image24.png", "alt": "Imagen 17" }
 ]
